@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-display">
+            <div class="timer-circle">
+                <span id="hours">00</span>
+                <span class="label">HOURS</span>
+            </div>
+            <div class="timer-circle">
+                <span id="minutes">00</span>
+                <span class="label">MINUTES</span>
+            </div>
+            <div class="timer-circle">
+                <span id="seconds">00</span>
+                <span class="label">SECONDS</span>
+            </div>
+        </div>
+        <div id="buttons" class="button-group">
+            <button id="start" class="btn btn-start">Start</button>
+            <button id="stop" class="btn btn-stop">Stop</button>
+            <button id="reset" class="btn btn-reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
